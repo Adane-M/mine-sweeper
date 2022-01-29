@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()">
+    <h1 class="header"> Minesweeper </h1>
+    <h4>shown count : <span class="showncount">0</span></h4>
+    <h4> 🚩 Marked count: <span class="markcount">0</span></h4>
+    <button onclick="initGame(this)">🙂</button> <span class="time">000</span>
+    <h5>
+        <button onclick="mode1()">sahi mode</button>
+        <button onclick="mode2()">hard mode</button>
+        <button onclick="mode3()">psy mode</button>
+    </h5>
+    <div class="board">
+
+    </div>
+
+    <script src="main/js.js"></script>
+    <script src="main/utils.js"></script>
+    <script src="main/cube.js"></script>
+</body>
+
+</html>
